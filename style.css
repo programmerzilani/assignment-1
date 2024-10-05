@@ -1,0 +1,103 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  width: 1200px;
+  margin: auto;
+}
+.container-nav {
+  display: flex;
+  background-color: #170550;
+  text-align: center;
+}
+.nav-icon {
+  width: 20%;
+  margin-top: 0.6rem;
+}
+.nav-img {
+  height: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.nav-menu {
+  width: 60%;
+  margin: auto;
+}
+.nav-menu-ul {
+  display: flex;
+  /* text-align: center; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav-menu-li {
+  list-style: none;
+  padding: 0.5rem 1.5rem;
+}
+.nav-menu-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.nav-menu-link:hover {
+  color: #f86f03;
+  transition: 0.3s;
+}
+
+/* cv container start */
+.container-cv {
+  height: 750px;
+  width: 1200px;
+  background-image: url(https://img.freepik.com/premium-vector/concept-ux-ui-development-graphic-computer-laptop-with-digital-technology-element-presented-isometric_46706-983.jpg);
+  background-repeat: no-repeat;
+  position: fixed;
+  background-size: contain;
+}
+.cv-section {
+  padding: 12rem 5rem;
+}
+.cv-section > * {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.cv-name-1 {
+  color: #f86f03;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.cv-name-2 {
+  font-size: 2.6rem;
+  margin: 0;
+  color: #fff;
+}
+.cv-name-3 {
+  font-size: 1.4rem;
+  line-height: 1rem;
+  color: #fff;
+}
+.cv-name-3 > span {
+  color: #f86f03;
+}
+.cv-para {
+  width: 35rem;
+  text-align: justify;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+.icon {
+  position: relative;
+  top: -27px;
+  letter-spacing: 10px;
+}
+.icon i {
+  color: #fff;
+  cursor: pointer;
+}
+.cv-btn {
+  text-decoration: none;
+  background-color: #f86f03;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+/* cv container end */
